@@ -95,4 +95,26 @@ object TaskRepository {
     private fun persist() {
         file.writeText("id,title\n" + tasks.joinToString("\n") { "${it.id},${it.title}" })
     }
+
+    // TODO: Week 7 Lab 1 Activity 2 Step 6
+    // Add find() and update() methods here
+
+    fun get(id: Int): Task? = 
+        tasks.find { it.id == id }
+
+    fun edit(id: Int, newTitle: String): Task? {
+        val task = tasks.find { it.id == id } ?: return null
+        task.title = newTitle
+        persist()
+        return task
+    }
+
+    // Some versions of the lab call this update(), so provide both names
+    fun update(id: Int, newTitle: String): Task? =
+        edit(id, newTitle)
+
+
+
+
+
 }
