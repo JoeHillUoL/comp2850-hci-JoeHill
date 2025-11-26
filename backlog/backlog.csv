@@ -1,1 +1,9 @@
 id,title,story_ref,story_type,need,type,severity,inclusion_risk,evidence,notes,candidate_fix
+1,Confirmation missing in no-JS path,stories.md#S1,Job story,Confirmation feedback,Accessibility,High,"SR,Cognitive","P-A notes L12; P-B notes L8; WCAG 4.1.3",No-JS form submit redirects with no visible confirmation,true
+2,Important tasks easily lost,stories.md#S2,Job story,Task prioritisation,Usability,Medium,"Cognitive,Low vision","P-A notes L15",Users need a highlight or pin to prevent burying,false
+3,Keyboard traps in other apps highlight risk,stories.md#S3,Job story,Keyboard access,Accessibility,High,"Keyboard,Motor","P-B notes L10; WCAG 2.1.1",Our app currently OK but must ensure full Tab reachability,true
+4,Low contrast in bright sunlight,stories.md#S4,Job story,Contrast visibility,Accessibility,Medium,"Low vision,Situational","P-A notes L28; WCAG 1.4.3",Need to check Pico.css button contrast ratios,false
+5,Screen reader needs consistent announcements,stories.md#S5,Job story,Screen reader support,Accessibility,High,"SR","P-B notes L15; WCAG 4.1.2",Live region works for success but error messages may be missed,false
+6,Accidental delete has no recovery,stories.md#S6,Job story,Error recovery,Usability,Medium,"Cognitive,SR","P-B notes L20; WCAG 3.3.1",No undo option increases stress; consider soft-delete,false
+7,Skip link not validated with screen reader,stories.md#S7,WCAG violation,Bypass blocks,Accessibility,Medium,"SR","WCAG 2.4.1",Keyboard-tested but not VoiceOver-tested,false
+8,Errors use polite live region,stories.md#S6,WCAG violation,Error announcement,Accessibility,High,"SR","WCAG 4.1.3",Error messages should use assertive live region,false

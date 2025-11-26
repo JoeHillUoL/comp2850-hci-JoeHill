@@ -2,8 +2,8 @@
 
 **Module**: COMP2850 Human-Computer Interaction
 **Activity**: Low-risk needs-finding (peer interviews)
-**Date**: [YYYY-MM-DD]
-**Researcher**: [Your Name/Student ID]
+**Date**: [2025-11-12]
+**Researcher**: [Joseph Hill/201836807]
 
 ---
 
@@ -57,7 +57,7 @@ Before starting, I will ask:
 ## Opt-Out Process
 
 If you change your mind:
-1. Email: [your-university-email]
+1. Email: [tnvn3422@leeds.ac.uk]
 2. Include: interview date + pseudonym
 3. I'll delete notes within 48 hours
 4. Confirm deletion via email
@@ -66,11 +66,13 @@ If you change your mind:
 
 ## Contact
 
-**Researcher**: [Your Name], [your-email@leeds.ac.uk]
-**Module Lead**: Dr. [Name], [module-email]
+**Researcher**: [Joseph Hill], [tnvn3422@leeds.ac.uk]
+**Module Lead**: Dr. [Amy Brereton], [A.M.Brereton@leeds.ac.uk]
 **University Ethics**: ethics@leeds.ac.uk
 
 ---
 
 **Template source**: COMP2850 HCI, University of Leeds
 **Reference**: ICO (2024). Guide to GDPR, <https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/>
+
+Reviewed by WG
