@@ -4,3 +4,11 @@
 /out/
 .claude/
 COMPILATION-ISSUES.md
+
+
+# this could contain sensitive data
+# Add to .gitignore
+#/data/tasks.csv
+#/data/metrics.csv
+#/wk*/research/*notes.md  # Interview notes with pseudonyms
+#*.log
